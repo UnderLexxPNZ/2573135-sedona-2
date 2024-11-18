@@ -1,7 +1,8 @@
 # Личный проект «Седона»
 
 * Студент: [Александр Серняев](https://up.htmlacademy.ru/htmlcss-individual/2/user/2573135).
-* Наставник: `Неизвестно`.
+* Наставник: [Виталий Драгулин](https://htmlacademy.ru/profile/id1008501).
+* Сайт: [Проект SEDONA](https://underlexxpnz.github.io/2573135-sedona-2/).
 
 ---
 
