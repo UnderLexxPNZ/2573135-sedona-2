@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
   <head>
     <meta charset="utf-8" />
     <title>Седона</title>
@@ -7,13 +8,7 @@
 
   <body>
     <a class="navigation-logo" href="index.html" aria-current="page">
-      <img
-        class="page-header-logo"
-        src="#"
-        width="138"
-        height="64"
-        alt="Логотип города Седона"
-      />
+      <img class="page-header-logo" src="images/logo.svg" width="140" height="70" alt="Логотип города Седона" />
     </a>
 
     <header class="page-header">
@@ -49,6 +44,8 @@
         <h2 class="page-main">
           Седона - небольшой городок в Аризоне, заслуживающий большего!
         </h2>
+        <img class="page-image" src="images/welcome.svg" width="458" height="352"
+          alt="Welcome to the gorgeous Sedona because the Grand Canyon sucrs!" />
         <p class="page-main">
           Рассмотрим причины по которым Седона круче, чем Гранд-Каньон!
         </p>
@@ -56,6 +53,8 @@
         <ul class="advantages-list">
           <li class="advantages-item">
             <h3 class="advantages-title">Настоящий городок</h3>
+            <img class="advantages-picture" src="images/photo-1.jpg" width="800" height="385"
+              alt="Здание с открытой террасой на фоне гор">
             <p class="advantages-description">
               Седона - не аттракцион для туристов, там течет своя жизнь
             </p>
@@ -84,6 +83,8 @@
 
           <li class="advantages-item">
             <h3 class="advantages-title">Там есть мост дьявола</h3>
+            <img class="advantages-picture" src="images/photo-2.jpg" width="800" height="385"
+              alt="Мост дьявола, арка из природного песчаника. США, Седона.">
             <p class="advantages-description">
               Да, по нему можно пройти! Если вы осмелитесь,разумеется
             </p>
@@ -131,24 +132,13 @@
       </section>
 
       <section class="subscribe">
-        <form
-          class="subscribe-form"
-          action="https://echo.htmlacademy.ru/"
-          method="post"
-        >
+        <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
           <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
           <p class="subscribe-description">
             Только полезная информация и никакого спама, честное бойскаутское!
           </p>
-          <label class="visually-hidden" for="subscribe-email"
-            >Укажите ваш email</label
-          >
-          <input
-            type="text"
-            id="subscribe-email"
-            name="user-email"
-            placeholder="Ваш e-mail"
-          />
+          <label class="visually-hidden" for="subscribe-email">Укажите ваш email</label>
+          <input type="text" id="subscribe-email" name="user-email" placeholder="Ваш e-mail" />
           <button class="subscribe-button" type="submit">Подписаться</button>
         </form>
       </section>
@@ -184,4 +174,5 @@
       </section>
     </footer>
   </body>
+
 </html>
