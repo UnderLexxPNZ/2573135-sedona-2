@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  font-style: normal;
+  color: #333333;
+  background-color: #f2f2f2;
+}
+
+.navigation-link {
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.navigation-user-link {
+  font-weight: 700;
+  line-height: 24px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.main-index {
+  background-image: url("../images/index-background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto, cover;
+  background-position: left top;
+}
+
+.subscribe {
+  background-image: url("../images/index-background.jpg");
+  background-repeat: no-repeat;
+  background-size: 1200px, 485px;
+}
+
+.advantages-title-dark {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  background-color: #82b3d3;
+  text-transform: uppercase;
+}
+
+.advantages-description-dark{
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  text-align: center;
+  color: #ffffff;
+  background-color: #82b3d3;
+}
+
+.advantages-title-lidht {
+font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+text-align: center;
+color: #000000;
+background-color: #83b3d3;
+text-transform: uppercase;
+}
+
+.advantages-title-medium {
+
+}
