@@ -24,9 +24,44 @@ body {
   background-color: #f2f2f2;
 }
 
+.button {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  background-color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.search-button {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #756157;
+}
+
+.subscribe-button {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #82b3d3;
+}
+
 .navigation-link {
   font-weight: 700;
   line-height: 24px;
+  text-decoration: none;
+  color: #000000;
+
 }
 
 .navigation-user-link {
@@ -37,7 +72,7 @@ body {
   color: #000000;
 }
 
-.main-index {
+.hero {
   background-image: url("../images/index-background.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto, cover;
@@ -50,35 +85,177 @@ body {
   background-size: 1200px, 485px;
 }
 
-.advantages-title-dark {
+.subscribe-catalog {
+  background-color: #f2f2f2;
+}
+
+.subscribe-title-catalog {
+
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+}
+
+.advantages-title {
   font-size: 24px;
   line-height: 28px;
   font-weight: 700;
   text-align: center;
   color: #ffffff;
-  background-color: #82b3d3;
   text-transform: uppercase;
 }
 
-.advantages-description-dark{
+.advantages-title-black {
+  color: #000000;
+}
+
+.advantages-description {
   font-size: 18px;
   line-height: 21px;
   font-weight: 400;
   text-align: center;
   color: #ffffff;
-  background-color: #82b3d3;
 }
 
-.advantages-title-lidht {
-font-size: 18px;
-font-weight: 400;
-line-height: 21px;
-text-align: center;
-color: #000000;
-background-color: #83b3d3;
-text-transform: uppercase;
+.advantages-description-black {
+  color: #000000;
 }
 
-.advantages-title-medium {
+.services {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+}
 
+.services-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+.services-name {
+
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+}
+
+.search-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.search-description {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+}
+
+.subscribe-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.subscribe-description {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.subscribe-description-catalog {
+  color: #000000;
+}
+
+.contact {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+}
+
+.inner-header-title {
+
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 78px;
+  text-align: left;
+  color: #ffffff;
+  background-image: url("../images/index-background.jpg");
+  background-repeat: no-repeat;
+}
+
+.breadcrumbs-item {
+  text-decoration: none;
+}
+
+.catalog-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.select-control {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+}
+
+.hotel-card-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  text-decoration: none;
+  /*Не получается убрать подчеркивание у ссылки*/
+}
+
+.hotel-type {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+}
+
+.hotel-card-price {
+  text-align: right;
+}
+
+.hotel-rating {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+
+.pagination-link {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.pagination-current {
+  color: #000000;
 }
