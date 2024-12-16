@@ -42,11 +42,18 @@
       </nav>
     </header>
 
-    <main class="main-inner">
+    <!--Добавили класс main-container как и в index.html-->
+    <main class="main-inner main-container">
+      <!--Обернули в DIV -->
+      <div class="page-container">
 
 
       <header class="inner-header">
-        <h1 class="inner-header-title">Гостиницы Седоны</h1>
+
+        <!--временно добавим атрибут hidden, чтобы заголовок не рушил сетку
+        <h1 class="inner-header-title">Гостиницы Седоны</h1>-->
+
+        <h1 class="visually-hidden">Гостиницы Седоны</h1>
         <ul class="breadcrumbs-list">
           <li class="breadcrumbs-item">
             <a href="index.html">На главную</a>
@@ -252,38 +259,44 @@
           <button class="subscribe-button" type="submit">Подписаться</button>
         </form>
       </section>
+      </div>
     </main>
 
     <footer class="page-footer">
-      <section class="footer-social">
-        <ul class="social-list">
-          <li class="footer-social-item">
-            <a class="button" href="https://vk.com/htmlacademy">
-              <h3 class="visually-hidden">Вконтакте</h3>
-            </a>
-          </li>
-          <li class="social-item">
-            <a class="button" href="#">
-              <h3 class="visually-hidden">Телеграмм</h3>
-            </a>
-          </li>
-          <li class="social-item">
-            <a class="button" href="#">
-              <h3 class="visually-hidden">Youtube</h3>
-            </a>
-          </li>
-        </ul>
-      </section>
 
-      <section class="contact">
-        <h3 class="visually-hidden">Телефон</h3>
-        <a class="contact" href="tel:+78128121212">+7 812 812-12-12</a>
-      </section>
+      <!-- Обернули для обработки весь контент footer -->
+      <div class="page-footer-container">
 
-      <section class="author-logo">
-        <h3 class="visually-hidden">Логотип HTMLAcademy</h3>
-        <a class="author-logo" href="https://htmlacademy.ru">.html academy</a>
-      </section>
+        <section class="footer-social">
+          <ul class="social-list">
+            <li class="footer-social-item">
+              <a class="button" href="https://vk.com/htmlacademy">
+                <h3 class="visually-hidden">Вконтакте</h3>
+              </a>
+            </li>
+            <li class="social-item">
+              <a class="button" href="#">
+                <h3 class="visually-hidden">Телеграмм</h3>
+              </a>
+            </li>
+            <li class="social-item">
+              <a class="button" href="#">
+                <h3 class="visually-hidden">Youtube</h3>
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="contact">
+          <h3 class="visually-hidden">Телефон</h3>
+          <a class="contact" href="tel:+78128121212">+7 812 812-12-12</a>
+        </section>
+
+        <section class="author-logo">
+          <h3 class="visually-hidden">Логотип HTMLAcademy</h3>
+          <a class="author-logo" href="https://htmlacademy.ru">.html academy</a>
+        </section>
+      </div>
     </footer>
   </body>
 

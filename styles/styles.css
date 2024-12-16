@@ -14,7 +14,15 @@
   font-display: swap;
 }
 
+html {
+  height: 100%; /*размер тега <html> равен размеру окна браузера.*/
+}
+
 body {
+  margin: 0; /* В браузерах у тега <body> задан margin, который надо сбросить.*/
+  display: flex ; /* блоки стоят на оси слева на право*/
+  flex-direction: column; /* разворачиваем ось сверху вниз */
+  min-height: 100%; /*минимальная высота блока 100% (по всему экрану) */
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
@@ -56,12 +64,30 @@ body {
   background-color: #82b3d3;
 }
 
+.navigation {
+  display: flex;/* блоки стоят на оси слева на право*/
+  width: 1200px; /* Размеры из макета */
+  margin: 0 auto; /* Блок встал по центру */
+}
+
+.navigation-list {
+  width: 500px; /*Уточнить,какой размер на макете?*/
+  margin: 0;
+  padding: 0;
+  list-style: none; /* Убирает точки у li */
+}
+
+.navigation-user {
+  max-width: 400px;/*Уточнить,какой размер на макете?*/
+  margin-left: auto;
+  list-style: none; /* Убирает точки у li */
+}
+
 .navigation-link {
   font-weight: 700;
   line-height: 24px;
   text-decoration: none;
   color: #000000;
-
 }
 
 .navigation-user-link {
@@ -72,11 +98,26 @@ body {
   color: #000000;
 }
 
+/* Класс отвечающий за Sticky footer */
+.main-container {
+  flex-grow: 1;
+}
+
 .hero {
   background-image: url("../images/index-background.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto, cover;
   background-position: left top;
+}
+
+.page-container {
+  width: 1200px; /*размер из макета */
+  margin: 0 auto;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
 }
 
 .subscribe {
@@ -95,6 +136,18 @@ body {
   font-weight: 700;
   line-height: 36px;
   text-align: left;
+}
+
+.advantages-list{
+  display: flex;
+  /* Как расположить блоки? Изображения justify-content: space-between; */
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
+}
+.advantages-item {
+  width: 400px;
 }
 
 .advantages-title {

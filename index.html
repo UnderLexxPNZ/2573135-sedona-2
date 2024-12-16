@@ -45,7 +45,11 @@
       </nav>
     </header>
 
-    <main class="main-index">
+    <!--Добавили класс main-container-->
+    <main class="main-container main-index">
+
+      <!-- Обернули для обработки весь контент в main-->
+      <div class="page-container">
 
       <section class="hero">
 
@@ -144,7 +148,7 @@
       </section>
 
       <section class="subscribe">
-        
+
         <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
           <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
           <p class="subscribe-description">
@@ -155,9 +159,14 @@
           <button class="subscribe-button" type="submit">Подписаться</button>
         </form>
       </section>
+    </div>
     </main>
 
     <footer class="page-footer">
+
+       <!-- Обернули для обработки весь контент footer -->
+      <div class="page-footer-container">
+
       <section class="footer-social">
         <ul class="social-list">
           <li class="footer-social-item">
@@ -187,6 +196,7 @@
         <h3 class="visually-hidden">Логотип HTMLAcademy</h3>
         <a class="author-logo" href="https://htmlacademy.ru">.html academy</a>
       </section>
+    </div>
     </footer>
   </body>
 
