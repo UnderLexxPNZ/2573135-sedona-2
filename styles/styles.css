@@ -367,6 +367,14 @@ ul {
   text-decoration: none;
 }
 
+.hotels{
+  display: flex;
+}
+
+.catalog {
+  display: flex;
+}
+
 .catalog-title {
   font-size: 30px;
   font-weight: 700;
@@ -386,6 +394,11 @@ ul {
   text-align: left;
 }
 
+.hotel-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .hotel-card {
   display: flex;
   flex-wrap: wrap;
@@ -395,8 +408,12 @@ ul {
 }
 
 .hotel-card-wrapper {
+
   max-width: 340px;
-  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 60px;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
 .hotel-card-title {
@@ -426,6 +443,10 @@ ul {
   text-align: center;
 }
 
+.pagination {
+  display: flex;
+ }
+
 .pagination-link {
   font-size: 20px;
   font-weight: 700;
@@ -440,9 +461,9 @@ ul {
 }
 
 .pagination-item {
-  display: flex;
   background-color: #82B3D3;
-  max-width: 60px;
+  margin: 2px;
+  padding: 60px;
 }
 
 .pagination-item--grey {
