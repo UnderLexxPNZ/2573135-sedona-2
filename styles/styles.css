@@ -37,6 +37,17 @@ body {
   background-color: #f2f2f2;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /*На все селекторы*/
 * {
   box-sizing: border-box;
@@ -96,22 +107,26 @@ ul {
 }
 
 .navigation-list {
+  display: flex;
+  flex-wrap: wrap;
   width: 500px;
   /*Уточнить,какой размер на макете?*/
   margin: 0;
   padding: 0;
   list-style: none;
-  /* Убирает точки у li */
 }
 
 .navigation-user {
+  display: flex;
+  flex-wrap: wrap;
   max-width: 400px;
   margin-left: auto;
   list-style: none;
-  /* Убирает точки у li */
 }
 
 .navigation-link {
+  display: block;
+  padding: 20px 16px;
   font-weight: 700;
   line-height: 24px;
   text-decoration: none;
@@ -119,6 +134,8 @@ ul {
 }
 
 .navigation-user-link {
+  display: block;
+  padding: 20px 16px;
   font-weight: 700;
   line-height: 24px;
   font-size: 20px;
@@ -142,9 +159,12 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 51px;
 }
 
 .page-main {
+  display: block;
+  margin-top: 69px;
   font-size: 30px;
   font-weight: 700;
   line-height: 36px;
@@ -153,6 +173,8 @@ ul {
 }
 
 .page-main-description {
+  display: block;
+  margin-bottom: 69px;
   font-size: 22px;
   font-weight: 400;
   line-height: 26px;
@@ -221,6 +243,8 @@ ul {
 }
 
 .advantages-item-wrapper {
+  display: flex;
+  flex-direction: column;
   max-width: 400px;
   padding: 103px 85px;
 }
@@ -295,7 +319,6 @@ ul {
 }
 
 .services-name {
-
   font-size: 24px;
   font-weight: 700;
   line-height: 28px;
@@ -306,7 +329,6 @@ ul {
   display: flex;
   margin: 0 auto;
 }
-
 
 .search-title {
   font-size: 30px;
@@ -401,6 +423,8 @@ ul {
 .hotel-list {
   display: flex;
   flex-wrap: wrap;
+  gap: 20px;
+  box-shadow: 0 0 0 1px #e6e6e6;
 }
 
 .hotel-card {
@@ -451,26 +475,32 @@ ul {
 
 .pagination {
   display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0;
+  margin-top: 40px;
+  padding: 0;
+  font-weight: 700;
+  line-height: 36px;
+  width: 400px;
  }
 
 .pagination-link {
-  padding: 10px;
+  display: block;
+  min-width: 60px;
+  padding: 12px;
   font-size: 20px;
-  font-weight: 700;
-  line-height: 36px;
   text-align: center;
   text-decoration: none;
   color: #ffffff;
 }
 
-.pagination-current {
+.pagination-link-current {
   color: #000000;
 }
 
 .pagination-item {
-  background-color: #82B3D3;
-  margin: 2px;
-
+  background-color: #82b3d3;
 }
 
 .pagination-item--grey {
@@ -489,4 +519,20 @@ ul {
 .page-footer-container {
   display: flex;
   justify-content: space-between;
+}
+
+.social-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-social-item {
+  margin-right: 8px;
+  margin-bottom: 8px;
+  width: 24px;
+  height: 14px;
+}
+
+.footer-social-item:nth-child(3n) {
+  margin-right: 0;
 }
